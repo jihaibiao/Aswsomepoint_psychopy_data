@@ -32,5 +32,5 @@ while i <= 136:
     y_pre = y
     base = 80
 
-    writer.writerow([[round(x * base - (17.2 * base ) / 2, 0), round(y * base - (13 * base) / 2, 0)], w * base, round(d * base,0),round (ID,3)])  # 转换成psychopy里面的坐标
+    writer.writerow([[round(x * base - 960, 0), round( 540 - y * base, 0)], w * base, round(d * base,0),round (ID,3)])  # 转换成psychopy里面的坐标
     i += 1
